@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:url("stadion.jpg") no-repeat center center fixed;
+background-size:cover;
+color:white;
+}
+
+nav{
+background:darkred;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:rgba(139,0,0,0.65);
+}
+
+.hero h1{
+font-size:55px;
+margin:0;
+}
+
+.section{
+background:rgba(0,0,0,0.75);
+margin:20px;
+padding:20px;
+border-radius:10px;
+border-left:5px solid red;
+}
+
+.cards{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:15px;
+width:200px;
+border:1px solid white;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+background:rgba(255,0,0,0.3);
+box-shadow:0 0 15px red;
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+text-align:center;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input,textarea{
+padding:10px;
+border-radius:5px;
+border:none;
+}
+
+button{
+background:darkred;
+color:white;
+padding:10px;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:red;
+}
+
+iframe{
+margin-top:10px;
+}
+
+.nav-img{
+width:500px;
+height:auto;
+display:block;
+margin:15px auto;
+border-radius:10px;
+border:2px solid darkred;
+}
+
+footer{
+text-align:center;
+background:darkred;
+padding:10px;
+margin-top:20px;
+}
